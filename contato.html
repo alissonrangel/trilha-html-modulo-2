@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica PetDio</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <style>
+      h1{
+        text-align: center;
+        color: rgb(186, 85, 85);
+        font-weight: 900;
+        font-size: 36px;
+        text-shadow: 5px 5px 5px tomato;
+        margin-bottom: 10px;
+      }
+      .content h4{      
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .content h4 span{
+        font-size: 20px;
+        margin-left: 15px;
+        color: #F6965E;
+      }
+      .content h3{
+        text-align: center;
+      }
+      .contatos{
+        margin: auto;
+        width: 300px;        
+      }
+      .endereco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .formulario{
+        margin: 10px auto;
+        width: 600px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      form label{
+        width: 100%;
+        margin-bottom: 8px;
+      }
+      input, textarea, button{
+        width: 100%;
+        padding: 5px 10px;
+      }
+      button{
+        margin-bottom: 5px;
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a class="selected" href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+              <img src="./assets/images/contato.jpg" height="100%" width="100%" alt="">
+            </div>
+    
+            <div class="content">
+              <h1>Clínica PetDio - Contato</h1>
+              <div class="contatos">
+                <h3>Telefone 24h:</h3>
+                <h4><img src="./assets/images/fone.jpg" alt="Telefone" height="35"><span>(13) 2224-8756</span></h4>
+                <h3>E-mail:</h3>
+                <h4><img src="./assets/images/email.jpg" alt="E-mail" height="35"><span>contato@petdio.com.br</span></h4>
+                <h3>Redes Sociais:</h3>
+                <h4><img src="./assets/images/insta.png" alt="instagram" style="border-radius: 10px;" height="35"><span>@petdio</span> </h4>
+                <h4><img src="./assets/images/whats.png" alt="whatsapp" height="35"><span>(13) 99678-2534</span></h4>                               
+              </div>
+              <div class="endereco">
+                <h3>Endereço:</h3>
+                <h4>Avenida Dom Severino, N° 2540 - São Cristóvão, Teresina - PI</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.38788849443986!2d-42.77808449513862!3d-5.0702983062618925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3a24f2158613%3A0x6a229fb3f9afcb49!2sAv.%20Dom%20Severino%2C%202540%20-%20S%C3%A3o%20Crist%C3%B3v%C3%A3o%2C%20Teresina%20-%20PI%2C%2064049-375!5e0!3m2!1spt-BR!2sbr!4v1730656274231!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+              </div>
+              <div class="formulario">
+                <h3>Envie uma mensagem</h3>
+                <form action="">
+                  <label for="nome">
+                    Nome: <br>
+                    <input type="text" name="nome" id="nome" required>
+                  </label>
+                  <label for="email">E-mail: <br>
+                    <input type="email" name="email" id="email" required>
+                  </label>
+                  <label for="assunto">
+                    Assunto: <br>
+                    <input type="text" name="assunto" id="assunto" required>
+                  </label>
+                  <label for="msg">
+                    Mensagem:  <br>
+                    <textarea name="msg" id="msg" required></textarea>
+                  </label>
+                  <button type="submit">Enviar</button>
+                  <button type="reset">Limpar</button>
+                </form>
+              </div>
+            </div>
+    
+            <div class="footer">
+              <div>E-mail: contato@petdio.com.br</div>
+              <div>
+                <h3>Redes Sociais:</h3>
+                <h4>@petdio - instagram</h4>
+                <h4>(13) 99678-2534 - whatsapp</h4>                  
+              </div>
+              <div><h4>(13) 2224-8756 - telefone 24h</h4></div>                
+              <div>2024 - Todos os direitos reservados</div>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

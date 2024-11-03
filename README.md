@@ -72,3 +72,11 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
 Bora pra cima!
+
+## Desafio executado por Alisson Rangel
+- criei banners para as páginas para ficar no header;
+- coloquei ícones para cada item de contato na página contato.html;
+- coloquei um iframe do google maps;
+- criei um formulário para envio de mensagens;
+- fiz um footer com os dados de contato;
+- elaborei outras partes conforme pedido no desafio.
